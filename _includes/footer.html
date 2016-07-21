@@ -1,0 +1,31 @@
+<footer class="site-footer">
+  <nav class="main-nav" id="menu">
+    <ol>
+      {% assign currentpage = page.url %}
+      {% for page in site.pages %}
+        {% unless page.url contains ".css" %}
+        <ul>
+          <li>
+            <!-- new 3rd category list -->
+              <li>
+                <a href="{{ site.baseurl }}0-gitignoreFileWhatIsIt.html" {% if page.url == "/0-gitignoreFileWhatIsIt.html" %}class = "active"{% endif %}>What is the .gitignore file?</a>
+                <ul>
+                    <li>
+                        <a href="{{ site.baseurl }}.html" {% if page.url == "/.html" %}class = "active"{% endif %}>Why is it usefull to have one ?</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}.html" {% if page.url == "/.html" %}class = "active"{% endif %}>Why do I need one ?</a>
+                    </li>
+                    <li>
+                        <a href="{{ site.baseurl }}.html" {% if page.url == "/.html" %}class = "active"{% endif %}>What happens if I don't have one ?</a>
+                    </li>
+                </ul>
+              </li>
+
+            <!-- <end>new 4th category list</end> -->
+          </ul>
+        {% endunless %}
+      {% endfor %}
+    </ol>
+  </nav>
+</footer>
