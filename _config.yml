@@ -1,0 +1,8 @@
+# Site settings
+title: use of a gitignore file to exclude other files
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jemoji
