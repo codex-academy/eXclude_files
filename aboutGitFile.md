@@ -6,7 +6,7 @@ title : All about the .gitignore
 
 # What is the .gitignore file?
 
-It is a file that you create to avoid other files beeing pushed to git.
+It is a file that you create to avoid other files from beeing pushed to git.
 It easily disallows you to upload other project files to Github automatically by its existence into your local project folder.
 
 <!-- Create a local .gitignor -->
