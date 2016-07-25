@@ -5,8 +5,9 @@ title: Index
 
 # Ignore files with the gitignore file
 
-Here we are going to know about the dot-gitignore - (`.gitignore`) file that we will always see when we don't necessarily want to add specific files to our git repository by creating it on our project folder.
+Here we are going to learn about the dot-gitignore - (`.gitignore`) file that we will always see when the Developers don't necessarily want to add the specific files to their git repository by creating it on their project folder.
 
-As all you know that your application will always perform well when on the server we should get something that we can associate with such that we can get to know advantages of having and as well as disadvantages then we could proceed by finding a good way about minimizing all those disadvantages.
+You will be given some set of instructions which at some point it will sound like a fuss but as you go along you will get to understand the link between the gitignore and the package.json file.
+
 
 To get going follow the instructions in the menu on the left  :arrow_lower_left:.
