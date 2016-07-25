@@ -58,4 +58,4 @@ then you should get the next output as the result of that gitignore file which y
 
 ![image-title-here](/img/statusExample.png){:class="img-responsive"}
 
-Untracked files should no longer show excluded files or directories which you already referenced in the `.gitignore` file .
+`Untracked files`:`output` -Thus should no longer show excluded files or directories which you have already referenced in the `.gitignore` file.
