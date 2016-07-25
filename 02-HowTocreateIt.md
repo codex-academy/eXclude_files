@@ -1,14 +1,14 @@
 ---
 layout : default
-title : Create the .gitignore
+title : Create the .gitignore file
 ---
 
 # How to create the .gitignore file
 
-now we are going to the terminal in oreder to create it just to make things easy
+Here we are going to use the terminal in order to create it just to make things easy for us.
 
-notice. We will do the exact thing that would've been dane on any of our favourate text editor program eg.Atom
-but for now we are going to do this by using terminal commands to create this file .
+notice. We will do the exact thing that would've been done on any of our favorite text editor program *eg.Atom*
+but for now we are going to create this file by using our terminal with commands.
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `nano .gitignore`
@@ -23,7 +23,7 @@ The only difference between these commands it's that the first command opens a f
 
 # What should lie inside this file ?
 
-We should reference our file directories or a specific file by specifying proper file path line.
+We should reference our file directories or a specific file by specifying proper file path line on this file.
 
 # Daigram.1 Project files
 
@@ -49,10 +49,13 @@ now from above example you don't want to upload the bower_components directory a
 
 The next thing to do is to check if your file are still showing up as untracked files which you would then think that it would be nice to upload them to git.
 
-Then you will have to Check if the .gitignore file works exactly like the way you want by executing the following git command:
+Then you will have to check if the .gitignore file works exactly like the way you want by executing the following git command:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git status`
 
-then you should get the next output as the result of that gitignore file which you will the add it to git.
- 
+then you should get the next output as the result of that gitignore file which you will then add it to git.
+
+![image-title-here](/img/statusExample.png){:class="img-responsive"}
+
+Untracked files should no longer show excluded files or directories which you already referenced in the `.gitignore` file .
