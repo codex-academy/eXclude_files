@@ -16,9 +16,9 @@ You will need it because git will not be able to determine which files are most 
 
 # What happens if I don't have one ?
 
-all your project files would then be STORED, committed with a their messages and pushed.Then when would push yuor repo it could event take more than a minute which it is not normal process when git cloning a repository. All the non essentials('files') are going to exist on your repository.
+All your project files would then be STORED, committed with a their messages and pushed.Then when would push your repository it could event take more than a minute which it is not normal process when git cloning a repository. All the non essentials('files') are going to exist on your repository.
 
-<h3>one example. It could be the following:</h3>
+<h3>One example. It could be the following:</h3>
 
 ` npm.log`
 
