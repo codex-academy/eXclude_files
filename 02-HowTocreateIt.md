@@ -37,7 +37,9 @@ Check you local file changes by executing the following git command:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git status`
 
-This should be the output before adding the files to git and if it happens that you havent yet uploaded  your files to git it will be advantageous to create the gitignore to ignore all the files of your choice before adding other file changes to git.
+This should be the output before adding the files to git and if it happens that you haven't yet uploaded  your files to git it will be advantageous to create the gitignore to ignore all the files of your choice before adding other file changes to git.
+
+# Daigram.2 Git status output
 
 ![image-title-here](/img/untrackedFileEx.png){:class="img-responsive"}
 
@@ -56,6 +58,7 @@ Then you will have to check if the .gitignore file works exactly like the way yo
 
 then you should get the next output as the result of that gitignore file which you will then add it to git.
 
+# Daigram.3 Git status output
 ![image-title-here](/img/statusExample.png){:class="img-responsive"}
 
 `Untracked files`:`output` -Thus should no longer show excluded files or directories which you have already referenced in the `.gitignore` file.
