@@ -17,7 +17,7 @@ Lets make an example from the following git repository below:
 Now lets say we mistakenly added node_modules folder to our repository now we to get rid of it without removing it from our local disk files.
 
 
-Firstly we are going to execute the following git command:
+Firstly we are going to execute the following git command to remove `1.` `node_modules`:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git rm node_modules -r`
@@ -29,23 +29,29 @@ Then Lets have a commit message by execute the following git command:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git commit -m "removed the node_modules folder"`
 
-Then push all these cahnges to github:
+Then push all these changes to github:
 
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git push origin master` *depending on the branch that you switched to when you made your changes*
 
 
-You will follow this Procedure whenever you are thinking of to remove something:
+
+<br />
+
+# You will follow this Procedure
 
 You have to 1stly remove your [files/directory] with the following git command:
+
 `git rm [FILE OR DIRECTORY] -r`;
 
 Then you should commit by writing your commit message with following git command:
+
 `git commit -m "[YOUR COMMIT MESSAGE]"`;
 
-3rdly you should push with following git command:
+Finally you will have to push with following git command:
+
 `git push origin [CURRENT_BRANCH]`;
 
 `NB`This is not a completely different process from the one of adding your files to git, as you will notice that after the `rm` command, you would then do the same as you usually do to upload/Add your local changes to your github.
 
-When we run the following command would then get our git status result showing that we deleted node_modules directory.
+When we run the following command would then get our git status result showing that we deleted node_modules directory like the following:
