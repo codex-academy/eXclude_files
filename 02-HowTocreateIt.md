@@ -49,7 +49,7 @@ now from above example you don't want to upload the bower_components directory a
 /bower_components
 </code></pre>
 
-The next thing to do is to check if your file are still showing up as untracked files which you would then think that it would be nice to upload them to git.
+The next thing to do is to check which files are still showing up as untracked files which you would then think that it would be nice to upload them to git but bear in mind that after adding your excludes in to your gitignore file you should not be getting them as untracked files.
 
 Then you will have to check if the .gitignore file works exactly like the way you want by executing the following git command:
 
@@ -62,3 +62,5 @@ then you should get the next output as the result of that gitignore file which y
 ![image-title-here](/img/statusExample.png){:class="img-responsive"}
 
 `Untracked files`:`output` -Thus should no longer show excluded files or directories which you have already referenced in the `.gitignore` file.
+
+Otherwise feel free to commit your .gitignore file and other files of your own if they going to be used on application nor Binary files.
