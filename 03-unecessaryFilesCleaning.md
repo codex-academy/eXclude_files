@@ -8,7 +8,7 @@ title : How do you cleanup
 
 If you already pushed unnecessary files you can easily clean your repository just with a few use of the git commands.
 
-Lets make an example from the following git repository below:
+Lets make an example from the following git repository below: :bulb:
 
 # Diagram .1 Git resitory with Commits
 
@@ -34,7 +34,19 @@ Then push all these changes to github:
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 `git push origin master` *depending on the branch that you switched to when you made your changes*
 
+Then you will have to check status by executing following git command:
 
+`git status`
+
+You should get the following as an output:
+![image-title-here](/img/gitRepoWithUnecessaryFilesExample.png){:class="img-responsive"}
+
+
+Then you are on the right track the only thing that you will need to do is to create your gitignore file.
+
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+To do so you can go the following link :point_right: [create the gitignore file](/02-HowTocreateIt.html).
+then you will see how is it been created on the terminal. with that accomplished the cleaning up process.
 
 <br />
 
@@ -52,6 +64,9 @@ Finally you will have to push with following git command:
 
 `git push origin [CURRENT_BRANCH]`;
 
+# :arrow_up: This is how you would clean up your.
+
 `NB`This is not a completely different process from the one of adding your files to git, as you will notice that after the `rm` command, you would then do the same as you usually do to upload/Add your local changes to your github.
 
 When we run the following command would then get our git status result showing that we deleted node_modules directory like the following:
+![image-title-here](/img/gitStatusWithUntrackedUselessFiles.png){:class="img-responsive"}
