@@ -18,6 +18,6 @@ It has its own special format.
 
 # Why are we going to use it in order to see if our application works?
 
-Now we are going to see the relation between these files .gitignore file and the package.json file.
+Now we are going to see the relationship between these files .gitignore file and the package.json file.
 
-It would be so idyllic if you can observe that both files are so usefull when working with node_modules.
+It would be so idyllic if you can observe that both files are so usefull to have them when working with node_modules.
